@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="https://www.alura.com.br" target="_blank">
+      <img class="logo" src="images/logo.png" alt="logo da Alura">
+    </a>
+  </header>
+  <main>
+    <section>
+      <textarea autofocus type="text" class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+      <div class="info">
+        <img src="images/info.png" alt="">
+        <p>Apenas letras minúsculas e sem acento.</p>
+      </div>
+      <div class="button-area">
+        <button class="btn-encript" onclick="encryptBtn()">Criptografar</button>
+        <button class="btn-decript" onclick="decryptBtn()">Descriptografar</button>
+      </div>
+    </section>
+    <section class="aside">
+      <img src="images/searching.svg" alt="homem com uma lupa">
+    </section>
+    <textarea class="copy-area" placeholder="Nenhuma mensagem"></textarea>
+    <button class="copy-button" onclick="copyBtn()">Copiar</button>
+    <div class="aside-msg-area">
+      <h2>Nenhuma mensagem encontrada</h2>
+      <p class="msg">Digite um texto que você deseje criptografar ou descriptografar</p>
+    </div>
+  </main>
+  <footer>
+    <p>Desenvolvido por <a href="https://github.com/MTaranto" target="_blank"><em>Márcio Taranto</em></a></p>
+    <p>Challenge Encriptador Alura</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
