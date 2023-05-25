@@ -257,6 +257,10 @@ footer a {
     top: 830px;
     display: none;
   }
+  footer {
+    top: 720px;
+    left: 300px;
+  }
 }
 
 @media screen and (max-width: 413px) {
@@ -328,5 +332,9 @@ footer a {
     left: 70px;
     top: 1200px;
     display: none;
+  }
+  footer {
+    top: 920px;
+    left: 80px;
   }
 }
