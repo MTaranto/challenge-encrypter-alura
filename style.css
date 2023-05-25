@@ -294,7 +294,7 @@ footer a {
     top: 445px;
   }
   .info p {
-    display: block ruby;
+    display: ruby;
   }
   .button-area {
     align-items: flex-start;
